@@ -25,6 +25,5 @@ class TestFrontBlueprint(KitTestCase):
         self.assertContains(response, 'Log in')
 
     def test_login(self):
-        assert False
         response = self.client.get(url_for('base.login'))
         self.assert200(response)
