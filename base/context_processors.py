@@ -17,10 +17,10 @@ from ext import gravatar
 
 
 def common_context():
+    
     return {'gravatar': gravatar,
             'my_email': 'semirook@gmail.com'
             }
-
 
 def navigation():
     main_page = {'name': 'Main',

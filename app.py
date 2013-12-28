@@ -33,3 +33,6 @@ js_base_bundle = ['js/libs/json2.js', 'js/libs/jquery-1.8.2-min.js',
 
 js_base = Bundle(*js_base_bundle, filters='jsmin', output='gen/base.js')
 assets.register('js_base', js_base)
+
+if __name__ == '__main__':
+	app.run()

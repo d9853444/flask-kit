@@ -53,16 +53,20 @@ class LoginView(MethodView):
 
         return redirect(request.args.get('next') or url_for('base.front_page'))
 
-base.add_url_rule('login', view_func=LoginView.as_view('login'))
+def hello():
+    return 'asdfa'
+base.add_url_rule('hello', view_func=hello, methods=['GET'])
+
+base.add_url_rule('login1', view_func=LoginView.as_view('login'))
+
+@login_manager.user_loader
+def load_user(user_id):
+    return User.get_by_id(user_id)
 
 
 login_manager.login_view = 'base.login'
 login_manager.login_message = 'You have to log in to access this page.'
 
-
-@login_manager.user_loader
-def load_user(user_id):
-    return User.get_by_id(user_id)
 
 
 @login_required

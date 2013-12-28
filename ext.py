@@ -16,7 +16,6 @@ from flask.ext.login import LoginManager
 from flask.ext.sqlalchemy import SQLAlchemy
 from flask.ext.assets import Environment
 
-
 db = SQLAlchemy()
 assets = Environment()
 login_manager = LoginManager()
