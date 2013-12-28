@@ -4,7 +4,4 @@ build:
     - script: 
           name: pip reqs
           code: pip install -r reqs.pip
-    - script:
-          name: flask tests
-          code: python testing.py
 
