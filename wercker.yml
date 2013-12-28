@@ -1,1 +1,10 @@
-box: wercker/default
+box: wercker/python
+build:
+  steps:
+    - script: 
+          name: pip reqs
+          code: pip install -r reqs.pip
+    - script:
+          name: flask tests
+          code: python testing.py
+
