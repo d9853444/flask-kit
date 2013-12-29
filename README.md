@@ -8,7 +8,7 @@ and it's not a layer on the top of original Flask.
 *Flask Kit is extendable backbone for your new Flask projects
 and the set of useful helpers to avoid some routine.* That's it.
 
-And it looks like this:
+And it looks like this: 
 
 ```
 /flaskit
