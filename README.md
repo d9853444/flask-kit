@@ -1,4 +1,4 @@
-[![wercker status](https://app.wercker.com/status/9ec6bb1ac98763c715566887f6435f39/m "wercker status")](https://app.wercker.com/project/bykey/9ec6bb1ac98763c715566887f6435f39)
+[![wercker status](https://app.wercker.com/status/9ec6bb1ac98763c715566887f6435f39 "wercker status")](https://app.wercker.com/project/bykey/9ec6bb1ac98763c715566887f6435f39)
 ## What the Flask Kit is and what is not
 
 **Flask Kit** is about [Flask](http://flask.pocoo.org/) project organization.
